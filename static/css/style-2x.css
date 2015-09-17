@@ -1,0 +1,11 @@
+
+@media screen and (min-width: 1280px) {
+	.white-arrow-btn:hover {
+		background:url(../images/btn-down-white-hov.svg) no-repeat;
+	}
+}
+@media screen and (min-width: 1280px) {
+	.white-arrow-btn {
+		background:url(../images/btn-down-white-nor.svg) no-repeat;
+	}
+}

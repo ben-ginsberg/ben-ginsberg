@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function insInLines(ins)
+            {
+                var list = ins.split('|')
+                for(i=0;i<list.length;i++)
+                {
+                    document.write("<p>"+list[i]+"</p>")
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <p>Age: {{mediaInfo.result.age}}</p>
+        </br>
+        <p>Instructions:
+            <script>insInLines('{{mediaInfo.result.instructions}}')</script>
+        </p>
+        </br>
+        <p>Video_url: {{mediaInfo.result.video_url}}</p>
+        </br>
+        <p>Duration: {{mediaInfo.result.duration}}</p>
+        </br>
+        <p>Learn: {{mediaInfo.result.learn}}</p>
+        </br>
+        <p>Occasion: {{mediaInfo.result.occasion}}</p>
+        </br>
+        <p>Title: {{mediaInfo.result.title}}</p>
+        </br>
+        <p>Shopping_url: {{mediaInfo.result.shopping_url}}</p>
+        </br>
+        <p>Development: {{mediaInfo.result.development}}</p>
+        </br>
+        <p>Setting: {{mediaInfo.result.setting}}</p>
+        </br>
+        <p>Type: {{mediaInfo.result.type}}</p>
+        </br>
+        <p>Time: {{mediaInfo.result.time}}</p>
+        </br>
+        <p>Weather: {{mediaInfo.result.weather}}</p>
+        </br>
+        <p>Temperature: {{mediaInfo.result.temperature}}</p>
+        </br>
+        <p>Prerequisites: {{mediaInfo.result.prerequisites}}</p>
+        </br>
+    </body>
+</html>

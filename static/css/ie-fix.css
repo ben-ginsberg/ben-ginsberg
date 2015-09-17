@@ -1,0 +1,41 @@
+.download-l {
+	filter: none;
+	background: url('../images/blue-btn-l.png') center top no-repeat;
+}
+
+.download-l:hover {
+	filter: none;
+	background: url('../images/blue-btn-l.png') center -140px no-repeat;
+}
+.download-appstore {
+	background: url('../images/download-appstore-bg.png') center top no-repeat;
+}
+.download-appstore:hover {
+	background: url('../images/download-appstore-bg.png') center -100px no-repeat;
+}
+
+
+.red-board {
+	background: url('../images/red-board.png') center top no-repeat;
+}
+
+.social:hover {
+	background: url('../images/social-bg-hov.png') center top no-repeat;
+}
+
+
+.inside-social-icon {
+	background: url('../images/social-icon-bg-hov.png') center top no-repeat;
+}
+.inside-social-icon:hover {
+	background: url('../images/social-icon-bg-hov.png') center -100px no-repeat;
+}
+
+
+
+.nav-link li:hover {
+	background: url('../images/nav-bg.png') left top no-repeat;
+}
+.nav-link a:hover {
+	background: url('../images/nav-bg.png') right -60px no-repeat;
+}
